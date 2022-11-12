@@ -15,6 +15,7 @@ jobs:
 
     - name: Installing build dependencies
       run: sudo apt-get install npm hugo git git-lfs
+      run: npm install
 
     - run: npm run build
 
