@@ -8,12 +8,12 @@ on:
 jobs:
   build:
 
-    runs-on: alpine-3.16
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
 
-    - run: pkg add npm hugo git git-lfs
+    - run: apt get npm hugo git git-lfs
     - run: npm run build
 
     - name: Deploy
