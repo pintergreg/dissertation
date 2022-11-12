@@ -1,4 +1,4 @@
-[![CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)][https://creativecommons.org/licenses/by/4.0/]
+[![CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
 # Analyzing the Mobility Customs of the Urban Population using Mobile Network Data
 
