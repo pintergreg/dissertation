@@ -6,9 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-<!--
       <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}dissertation/preface" role="button">read online</a>
--->
       {{/*<p class="meta">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>*/}}
     </div>
   </div>
@@ -20,6 +18,10 @@
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
+        <h2 class="h4">license</h2>
+        <p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a></p>
+      </div>
+      <div class="col-lg-5">
         <h2 class="h4">download</h2>
         <p class="text-left">
             <a type="button" class="btn btn-outline-primary btn-sm" href="/dissertation.pdf" target="_blank">dissertation</a>
@@ -27,10 +29,12 @@
             <a type="button" class="btn btn-outline-primary btn-sm" href="/defense.pdf" target="_blank">defense presentation</a>
         </p>
       </div>
+<!--
       <div class="col-lg-5">
         <h2 class="h4">read online</h2>
         <p><a class="btn btn-primary px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}dissertation/preface" role="button">go to contents</a></p>
       </div>
+-->
       <div class="col-lg-5">
         <h2 class="h4">defense</h2>
         <p>July 7, 2022<br/><a href="https://uni-obuda.hu/en" target="_blank">Óbuda University</a></p>
