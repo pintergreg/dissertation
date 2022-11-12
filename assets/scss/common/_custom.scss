@@ -1,0 +1,9 @@
+/** Custom styles */
+.acronym {
+    border-bottom: 1px dotted $link-color;
+    cursor: help;
+}
+[data-dark-mode] .acronym {
+    border-bottom: 1px dotted $link-color-dark;
+    cursor: help;
+}
