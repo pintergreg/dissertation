@@ -1,11 +1,11 @@
 [[main]]
-  name = "Dissertation"
+  name = "dissertation"
   identifier = "dissertation"
   url = "/docs/preface/"
   weight = 10
 
 [[main]]
-  name = "Publications"
+  name = "publications"
   url = "/publications/"
   weight = 30
 
