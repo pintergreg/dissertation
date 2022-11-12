@@ -1,8 +1,7 @@
 [[main]]
   name = "Dissertation"
   identifier = "dissertation"
-  url = "/docs/dissertation/preface/"
-# url = "/docs/1.0/dissertation/preface/"
+  url = "/docs/preface/"
   weight = 10
 
 [[main]]
