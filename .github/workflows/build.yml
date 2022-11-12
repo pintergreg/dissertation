@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - run: apt install npm hugo git git-lfs
+    - run: apt-get install npm hugo git git-lfs
     - run: npm run build
 
     - name: Deploy
