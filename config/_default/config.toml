@@ -1,4 +1,4 @@
-baseurl = "https://pintergreg.github.io/dissertation"
+baseurl = "https://pintergreg.github.io/dissertation/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
