@@ -1,0 +1,23 @@
+name: build website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: alpine-3.16
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - run: pkg add npm hugo git git-lfs
+    - run: npm run build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        publish_dir: ./public
