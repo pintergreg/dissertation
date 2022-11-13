@@ -118,7 +118,7 @@ My publications pertaining to this thesis: [<a href="/docs/bibliography#pinter20
 
 *I have designed a method using Principal Component Analysis to evaluate socioeconomic status depending on the indicators of human mobility. Housing prices have been used to characterize the socioeconomic status of the population. I have found differences in the mobility customs within the different socioeconomic classes, so that the socioeconomic status can be inferred from the mobility.*
 
-Figure [1.6](#fig:t:pca){reference-type="ref" reference="fig:t:pca"}, shows the first two components of an unsupervised <span class="acronym" title="Principal Component Analysis">PCA</span> analysis. The brown colors represent the workdays, the green ones the holidays, and they form two separate clusters. Marker size represents the housing price at the home location. While there is a marked tendency along the PC2 axis as the markers increase, the PC1 axis separates the estate price of the workplaces.
+Figure <a href="/docs/conclusions#fig:t:pca">9.4</a>, shows the first two components of an unsupervised <span class="acronym" title="Principal Component Analysis">PCA</span> analysis. The brown colors represent the workdays, the green ones the holidays, and they form two separate clusters. Marker size represents the housing price at the home location. While there is a marked tendency along the PC2 axis as the markers increase, the PC1 axis separates the estate price of the workplaces.
 
 <figure id="fig:t:pca">
 <img src="pca/pca.png" alt="Scatter plot of the 2-component Principal Component Analysis. Marker size indicates the home price category, the type denotes work price category and the color refers to Weekdays or Weekends.">
@@ -132,7 +132,7 @@ My publication pertaining to this thesis: [<a href="/docs/bibliography#pinter202
 
 *I have fused cellphone prices and release dates with the mobile network data to analyze the mobility customs in contrast to the price and the age of the subscribers' cellphone. I found that the cellphone price and age are eligible to characterize a subscriber's socioeconomic status.*
 
-Figure [1.7](#fig:t:vod201606_age_pp_pca){reference-type="ref" reference="fig:t:vod201606_age_pp_pca"} does not only show that the phone price forms clusters but also reveals the differences between workdays and holidays in the mobility, which is the most notable in the case of the subscribers with the least expensive cellphones.
+Figure <a href="/docs/conclusions#fig:t:vod201606_age_pp_pca">9.5</a> does not only show that the phone price forms clusters but also reveals the differences between workdays and holidays in the mobility, which is the most notable in the case of the subscribers with the least expensive cellphones.
 
 <figure id="fig:t:vod201606_age_pp_pca">
 <img src="ses/vod201606_age_pp_pca.png" alt="Scatter plot of the 2-component Principal Component Analysis. Marker size indicates subscriber age category,     the color represents the phone price category and the workdays and holidays are distinguished by the marker type.">
@@ -146,16 +146,16 @@ My publication pertaining to this thesis: [<a href="/docs/bibliography#pinter202
 
 *I demonstrated a relationship between the wake-up time and the mobility customs, as well as the socioeconomic status. The subscribers living in less expensive apartments get up earlier than those who live in pricier neighborhoods. The same tendency holds regarding mobile phone prices: subscribers who own more expensive cellphones tend to get up later.*
 
-Figure [\[fig:t:wakeup_vs_mobility\]](#fig:t:wakeup_vs_mobility){reference-type="ref" reference="fig:t:wakeup_vs_mobility"} shows the daily wake-up times in contrast to daily mobility indicators. A strong negative correlation was found, especially in the case of Entropy.
+Figure <a href="/docs/conclusions#fig:t:wakeup_vs_mobility">9.6</a> shows the daily wake-up times in contrast to daily mobility indicators. A strong negative correlation was found, especially in the case of Entropy.
 
-Figure [1.10](#fig:t:by_housing_prices){reference-type="ref" reference="fig:t:by_housing_prices"} and [1.11](#fig:t:by_phone_prices){reference-type="ref" reference="fig:t:by_phone_prices"}, illustrate the wake-up time distribution by housing price and phone price categories, respectively. Although there is an increasing tendency in both cases, the connection between the housing price and the wake-up time is stronger.
+Figure <a href="/docs/conclusions#fig:t:by_housing_prices">9.7a</a> and <a href="/docs/conclusions#fig:t:by_phone_prices">9.7b</a>, illustrate the wake-up time distribution by housing price and phone price categories, respectively. Although there is an increasing tendency in both cases, the connection between the housing price and the wake-up time is stronger.
 
 <figure id="fig:t:wakeup_vs_mobility">
 <img id="fig:t:entropy_vs_wakeup" src="vod201704/awakening_city/entropy_vs_wakeup.png" alt="">
 <figcaption><strong>(a)</strong> </figcaption>
 <img id="fig:t:gyration_vs_wakeup" src="vod201704/awakening_city/gyration_vs_wakeup.png" alt="">
 <figcaption><strong>(b)</strong> </figcaption>
-<figcaption><strong>Figure 9.6.:</strong> Normalized, inhabitant-based wake-up times in contrast of the normalized daily Entropy (<strong>a</strong>) and Radius of Gyration (<strong>b</strong>). Pearson's Rs are \num{\DailyEntWuPearsonR} and \num{\DailyGyrWuPearsonR}, respectively.</figcaption>
+<figcaption><strong>Figure 9.6.:</strong> Normalized, inhabitant-based wake-up times in contrast of the normalized daily Entropy (<strong>a</strong>) and Radius of Gyration (<strong>b</strong>). Pearson's Rs are -0.9019 and -0.6869, respectively.</figcaption>
 </figure>
 
 

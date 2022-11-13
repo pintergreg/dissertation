@@ -50,7 +50,7 @@ On Wednesday, June 22, 2016, in the third match of the group stage of the 2016 U
 
 After the match, the activity level was over the average, which might represent the spontaneous festival in downtown Budapest. According to the <span class="acronym" title="Magyar Távirati Iroda, Hungarian news agency">MTI</span> (Hungarian news agency), thousands of people celebrated in the streets, starting from the fan zones, mainly from Erzsébet square (Figure <a href="/docs/social_sensing#fig:post_match_festival">5.5</a> a), Margaret Island (Figure <a href="/docs/social_sensing#fig:post_match_festival">5.5</a> b) and Erzsébet square (Figure <a href="/docs/social_sensing#fig:post_match_festival">5.5</a> c) direction Budapest Nyugati railway station. The celebrating crowd completely occupied the Grand Boulevard, and the public transportation was disrupted along the affected lines.
 
-This social event is comparable to mass protests from a mobile phone network perspective. In Section [1.2.1](#sec:IstandwithCEU){reference-type="ref" reference="sec:IstandwithCEU"} I have analyzed the mobile phone activity at the route of a mass protest. The activity of the cells was significantly high when the protesters passed through the cell. In this case, however, the affected area was smaller, and the sites along the Grand Boulevard were very busy at the same time after the game.
+This social event is comparable to mass protests from a mobile phone network perspective. In Section <a href="/docs/social_sensing#sec:IstandwithCEU">In Social Media</a> I have analyzed the mobile phone activity at the route of a mass protest. The activity of the cells was significantly high when the protesters passed through the cell. In this case, however, the affected area was smaller, and the sites along the Grand Boulevard were very busy at the same time after the game.
 
 <figure id="fig:hun_prt_timeseries">
 <img src="euro2016/hun_prt_20160622_16-22.png" alt="Mobile phone activity during and after the Hungary--Portugal Euro 2016 match, in comparison with the average of the previous and the following two days.">
@@ -64,7 +64,7 @@ In the highlighted site, in Figure <a href="/docs/social_sensing#fig:post_match
 
 After the match, there was a significant increase in the activity in some other sites. These sites were (mostly) around the Grand Boulevard, where the fans marched and celebrated the advancement of the national football team to the knockout phase.
 
-Figure <a href="/docs/social_sensing#fig:post_match_festival">5.5</a> shows the spatial distribution of this social event using Voronoi polygons generated around the base stations locations. The polygons are colored by the mobile phone network activity increase at 20:15, compared to the weekday activity average. For the comparison, the standard score [^2] was determined for every base station with a 5-minute temporal aggregation. The darker colors indicate the higher activity surplus in an area. The figure also denotes the three main fan zones in the area, the routes of the fans by arrows, and the affected streets by thicker lines.
+Figure <a href="/docs/social_sensing#fig:post_match_festival">5.5</a> shows the spatial distribution of this social event using Voronoi polygons generated around the base stations locations. The polygons are colored by the mobile phone network activity increase at 20:15, compared to the weekday activity average. For the comparison, the standard scor[^2] was determined for every base station with a 5-minute temporal aggregation. The darker colors indicate the higher activity surplus in an area. The figure also denotes the three main fan zones in the area, the routes of the fans by arrows, and the affected streets by thicker lines.
 
 <figure id="fig:post_match_festival_timeseries">
 <img src="euro2016/post_match_festival_timeseries.png" alt="Cell activities, in Budapest downtown, on the day of the Hungary vs. Portugal football match (June 22, 2016). The highlighted cell covers mostly the Szabadság square, where one of the main fan zone was set up.">
@@ -183,8 +183,8 @@ According to the reports [<a href="/docs/bibliography#dull2017ekkora" title="Dul
 The motto "I stand with CEU" was used, also in social media to express solidarity and support with the <span class="acronym" title="Central European University">CEU</span>. Figure <a href="/docs/social_sensing#fig:tweet_distribution">5.11</a> displays the distribution of the tweets, with the hashtag "#IstandwithCEU", using different colors for genuine tweets and retweets. There was a notable peak during the protest, while the retweets showed some delay. On the other hand, the retweets still circulated the following day, while not too many new tweets were posted.
 
 <figure id="fig:tweet_distribution">
-<img src="ceudemo/tweet_distribution.png" alt="The distribution of tweets with the hashtag ``IstandwithCEU'', on the day of the protest and the following two days.">
-<figcaption><strong>Figure 5.11.:</strong> The distribution of tweets with the hashtag ``IstandwithCEU'', on the day of the protest and the following two days.</figcaption>
+<img src="ceudemo/tweet_distribution.png" alt="The distribution of tweets with the hashtag “IstandwithCEU”, on the day of the protest and the following two days.">
+<figcaption><strong>Figure 5.11.:</strong> The distribution of tweets with the hashtag “IstandwithCEU”, on the day of the protest and the following two days.</figcaption>
 </figure>
 
 

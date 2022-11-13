@@ -42,12 +42,12 @@ The "April 2017" CDR data set includes mobile phone network activity of the Voda
 </figure>
 
 
-Figure <a href="/docs/data_sources#fig:vod201704_timeseries">3.3a</a>, displays the mobile phone activity as a time series for the "April 2017" dataset. It is quite regular, considering the 4-day weekend in the middle of the month due to Easter [^1]. Figure <a href="/docs/data_sources#fig:fourier">3.3b</a> shows its Fourier decomposition to highlight the seasonality of the data. As expected, this 30-day dataset has a 24-hour periodicity.
+Figure <a href="/docs/data_sources#fig:vod201704_timeseries">3.3a</a>, displays the mobile phone activity as a time series for the "April 2017" dataset. It is quite regular, considering the 4-day weekend in the middle of the month due to Easte[^1]. Figure <a href="/docs/data_sources#fig:fourier">3.3b</a> shows its Fourier decomposition to highlight the seasonality of the data. As expected, this 30-day dataset has a 24-hour periodicity.
 
 
 <figure id="fig:vod201704_seasonality">
-<img id="fig:vod201704_timeseries" src="vod201704/timeseries.png" alt="Mobile phone activity through the ``April 2017'' dataset.">
-<figcaption><strong>(a)</strong> Mobile phone activity through the ``April 2017'' dataset.</figcaption>
+<img id="fig:vod201704_timeseries" src="vod201704/timeseries.png" alt="Mobile phone activity through the “April 2017” dataset.">
+<figcaption><strong>(a)</strong> Mobile phone activity through the “April 2017” dataset.</figcaption>
 <img id="fig:fourier" src="vod201704/fourier.png" alt="Fourier decomposition.">
 <figcaption><strong>(b)</strong> Fourier decomposition.</figcaption>
 <figcaption><strong>Figure 3.3.:</strong> The mobile phone network activity (<strong>a</strong>) during the observation period of April 2017, and its Fourier decomposition (<strong>b</strong>).</figcaption>
@@ -87,7 +87,7 @@ The main drawback of this data set is a large number of missing cell coordinates
 
 
 
-Moreover, 419 cells ceased to operate (did not have any activity) before the end of the month. Figure <a href="/docs/data_sources#fig:disappearing_cells">3.4</a> shows the distribution of these cells during the month [^2]. According to my knowledge, operators regularly adjust the network, including installing new cells and shutting down others. The problem is that the cell map does not associate temporal information with the geographic locations, so these changes are not represented. The numerous cells without geographic location might be the replacement cells of the removed ones or just temporary cells.
+Moreover, 419 cells ceased to operate (did not have any activity) before the end of the month. Figure <a href="/docs/data_sources#fig:disappearing_cells">3.4</a> shows the distribution of these cells during the mont[^2]. According to my knowledge, operators regularly adjust the network, including installing new cells and shutting down others. The problem is that the cell map does not associate temporal information with the geographic locations, so these changes are not represented. The numerous cells without geographic location might be the replacement cells of the removed ones or just temporary cells.
 
 For example, Óbuda Island is a recreational area with marginal mobile phone activity during most of the year. But, it gives place the Sziget Festival, that had approximately 441000 visitors in 2015, with a daily capacity of at most 90000 visitors [<a href="/docs/bibliography#bbj2015sziget" title="K. Christian, “Sziget Festival sees record attendance of 441,000.” Available: https://bbj.hu/budapest/culture/awards/sziget-festival-sees-record-attendance-of-441-000">112</a>]. For this event, the operators install temporary cells to serve the massively increased demand of the mobile phone network capacity.
 
@@ -95,8 +95,8 @@ Figure <a href="/docs/data_sources#fig:vod201606_timeseries">3.5</a>, displays 
 
 
 <figure id="fig:vod201606_timeseries">
-<img src="vod201606/timeseries.png" alt="Mobile phone activity through the ``June 2016'' dataset, with several anomalies.">
-<figcaption><strong>Figure 3.5.:</strong> Mobile phone activity through the ``June 2016'' dataset, with several anomalies.</figcaption>
+<img src="vod201606/timeseries.png" alt="Mobile phone activity through the “June 2016” dataset, with several anomalies.">
+<figcaption><strong>Figure 3.5.:</strong> Mobile phone activity through the “June 2016” dataset, with several anomalies.</figcaption>
 </figure>
 
 
@@ -164,7 +164,7 @@ The simple string equality cannot be used due to writing distinction to match th
 
 From the GSMArena data, two indicators have been extracted: (i) the price of the phone (in EUR) and (ii) the relative age of the phone (in months). The phone price was left intact without taking into consideration the depreciation, and the relative age of the phone was calculated as the difference between the date of the <span class="acronym" title="Call Detail Record">CDR</span> data set and the release date of the phone.
 
-Figure <a href="/docs/data_sources#fig:phone_price_and_age_hist">3.10</a> shows the distribution of the phone prices and relative ages within the April 2017 data set. The relative age has a nice distribution, showing that most cellphones are 1 to 3 years old. There were some new and very old phones still in use. The cellphone price distribution follows the relative ages. However, the number of expensive phones seems to be unrealistically low [^4], so analysis has been performed on an expensive and well-known brand, the iPhone.
+Figure <a href="/docs/data_sources#fig:phone_price_and_age_hist">3.10</a> shows the distribution of the phone prices and relative ages within the April 2017 data set. The relative age has a nice distribution, showing that most cellphones are 1 to 3 years old. There were some new and very old phones still in use. The cellphone price distribution follows the relative ages. However, the number of expensive phones seems to be unrealistically lo[^4], so analysis has been performed on an expensive and well-known brand, the iPhone.
 
 
 <figure id="fig:phone_price_and_age_hist">
@@ -187,7 +187,7 @@ Figure <a href="/docs/data_sources#fig:phone_price_and_age_hist">3.10</a> shows
 <figcaption><strong>(a)</strong> Model distribution</figcaption>
 <img id="fig:iphone_prices" src="tac/iphone_prices.png" alt="Price comparison">
 <figcaption><strong>(b)</strong> Price comparison</figcaption>
-<figcaption><strong>Figure 3.11.:</strong>      Based on the ``April 2017'' dataset, the different iPhone models in use are also displayed (<strong>a</strong>), and comparing Apple iPhone prices [<a href="/docs/bibliography#protalinski2017iphone" title="E. Protalinski, “iPhone prices from the original to iPhone X.” Sep. 12, 2017. Available: https://venturebeat.com/2017/09/12/iphone-prices-from-the-original-to-iphone-x/">117</a>] with the GSMArena-based source [<a href="/docs/bibliography#mohit_gsmarena" title="M. Sainani, “GSMArena Mobile Phone Devices.” Available: https://www.kaggle.com/msainani/gsmarena-mobile-devices">113</a>] (<strong>b</strong>).     Versions with the lowest amount of storage denoted by ``budget'', and versions with the most expensive versions categorized as ``high-end''.     </figcaption>
+<figcaption><strong>Figure 3.11.:</strong>      Based on the “April 2017” dataset, the different iPhone models in use are also displayed (<strong>a</strong>), and comparing Apple iPhone prices [<a href="/docs/bibliography#protalinski2017iphone" title="E. Protalinski, “iPhone prices from the original to iPhone X.” Sep. 12, 2017. Available: https://venturebeat.com/2017/09/12/iphone-prices-from-the-original-to-iphone-x/">117</a>] with the GSMArena-based source [<a href="/docs/bibliography#mohit_gsmarena" title="M. Sainani, “GSMArena Mobile Phone Devices.” Available: https://www.kaggle.com/msainani/gsmarena-mobile-devices">113</a>] (<strong>b</strong>).     Versions with the lowest amount of storage denoted by “budget”, and versions with the most expensive versions categorized as “high-end”.     </figcaption>
 </figure>
 
 
@@ -267,7 +267,7 @@ Also, as a validation, astronomical information (sunrise and sunset) has been ob
 
 ### Twitter {#twitter .unnumbered}
 
-In Section [\[sec:IstandwithCEU\]](#sec:IstandwithCEU){reference-type="ref" reference="sec:IstandwithCEU"}, Twitter data is utilized that was obtained via its academic research access program [<a href="/docs/bibliography#twitter_academic" title="Twitter, “Twitter API for Academic Research.” Available: https://developer.twitter.com/en/products/twitter-api/academic-research">121</a>], which provides access for non-commercial research purposes. To download historical tweets based on hashtags, the *twarc* software was used [<a href="/docs/bibliography#ed_summers_2022_6327291" title="E. Summers et al., “DocNow/twarc: v2.9.5.” Zenodo, Mar. 2022. doi: 10.5281/zenodo.6327291.">122</a>].
+In Section <a href="/docs/social_sensing#sec:IstandwithCEU">In Social Media</a>, Twitter data is utilized that was obtained via its academic research access program [<a href="/docs/bibliography#twitter_academic" title="Twitter, “Twitter API for Academic Research.” Available: https://developer.twitter.com/en/products/twitter-api/academic-research">121</a>], which provides access for non-commercial research purposes. To download historical tweets based on hashtags, the *twarc* software was used [<a href="/docs/bibliography#ed_summers_2022_6327291" title="E. Summers et al., “DocNow/twarc: v2.9.5.” Zenodo, Mar. 2022. doi: 10.5281/zenodo.6327291.">122</a>].
 
 [^1]: From 2017, Good Friday is also a holiday in Hungary.
 

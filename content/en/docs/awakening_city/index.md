@@ -69,7 +69,7 @@ The same evaluation was performed on the "June 2016" data set. Figure <a href="
 <figcaption><strong>(e)</strong> </figcaption>
 <img id="fig:vod201606_day_length" src="vod201606/awakening_city/day_lengths.png" alt="">
 <figcaption><strong>(f)</strong> </figcaption>
-<figcaption><strong>Figure 7.3.:</strong> Daily wake-up times (<strong>a</strong>,<strong>d</strong>), bedtimes (<strong>b</strong>,<strong>e</strong>), and the day lengths (<strong>c</strong>,<strong>e</strong>), for the ``April 2017'' (<strong>a</strong>--<strong>c</strong>) and the ``June 2016'' (<strong>e</strong>--<strong>e</strong>) dataset. Holidays are represented by a different color.</figcaption>
+<figcaption><strong>Figure 7.3.:</strong> Daily wake-up times (<strong>a</strong>,<strong>d</strong>), bedtimes (<strong>b</strong>,<strong>e</strong>), and the day lengths (<strong>c</strong>,<strong>e</strong>), for the “April 2017” (<strong>a</strong>--<strong>c</strong>) and the “June 2016” (<strong>e</strong>--<strong>e</strong>) dataset. Holidays are represented by a different color.</figcaption>
 </figure>
 
 
@@ -111,7 +111,7 @@ Figure <a href="/docs/awakening_city#fig:vod201606_daily_wakeups">7.3d</a> show
 
 
 
-Until the summer solstice (June 20 in 2016 [<a href="/docs/bibliography#espenak2018solstices" title="F. Espenak, “Solstices and Equinoxes: 2001 to 2050.” Feb. 20, 2018. Available: http://astropixels.com/ephemeris/soleq2001.html">147</a>]), the days are getting longer, but can the longer daylight have an effect on mobile phone network activity? As a reference, astronomical information (sunrise and sunset) has obtained from [www.visualcrossing.com](www.visualcrossing.com){.uri} [<a href="/docs/bibliography#visualcrossing" title="V. C. Corporation, “Visual Crossing Weather (2016-2017).” 2021. Available: https://www.visualcrossing.com/">120</a>] for Budapest. Figure <a href="/docs/awakening_city#fig:sunrise_sunset">7.5</a> shows the difference between the sunrises and the sunsets during the two observation periods of the data sets, projected to the same figure. The dashed lines display the values of June, and the solid lines display the values of April. As the summer solstice is in June, the differences during the month are negligible, but in April, the differences between the beginning and the end of the month are much more significant.
+Until the summer solstice (June 20 in 2016 [<a href="/docs/bibliography#espenak2018solstices" title="F. Espenak, “Solstices and Equinoxes: 2001 to 2050.” Feb. 20, 2018. Available: http://astropixels.com/ephemeris/soleq2001.html">147</a>]), the days are getting longer, but can the longer daylight have an effect on mobile phone network activity? As a reference, astronomical information (sunrise and sunset) has obtained from [www.visualcrossing.com](www.visualcrossing.com) [<a href="/docs/bibliography#visualcrossing" title="V. C. Corporation, “Visual Crossing Weather (2016-2017).” 2021. Available: https://www.visualcrossing.com/">120</a>] for Budapest. Figure <a href="/docs/awakening_city#fig:sunrise_sunset">7.5</a> shows the difference between the sunrises and the sunsets during the two observation periods of the data sets, projected to the same figure. The dashed lines display the values of June, and the solid lines display the values of April. As the summer solstice is in June, the differences during the month are negligible, but in April, the differences between the beginning and the end of the month are much more significant.
 
 So, in June, the Sun rises earlier and sets later than in April. Consequently, lighter periods of days are longer. June 15 is more than 2-hour longer than April 15, using the astronomical definitions of the sunrise and sunset. According to the calculated day lengths, the average workday length is 12 hours in the "June 2016" data set and 10 hours and 40 minutes in the "April 2017" data set, resulting in a difference of 80 minutes.
 
@@ -132,7 +132,7 @@ Based on the cell/area activity, the wake-up, and the bedtime has been determine
 <figcaption><strong>(c)</strong> </figcaption>
 <img id="fig:cell_bedt_weekend_histogram" src="vod201704/awakening_city/cell_bedt_weekend_histogram.png" alt="">
 <figcaption><strong>(d)</strong> </figcaption>
-<figcaption><strong>Figure 7.6.:</strong> Cell based wake-up (<strong>a</strong>, <strong>b</strong>) and bedtime (<strong>c</strong>, <strong>d</strong>) distribution for workdays and holidays, respectively, in the ``April 2017'' dataset.</figcaption>
+<figcaption><strong>Figure 7.6.:</strong> Cell based wake-up (<strong>a</strong>, <strong>b</strong>) and bedtime (<strong>c</strong>, <strong>d</strong>) distribution for workdays and holidays, respectively, in the “April 2017” dataset.</figcaption>
 </figure>
 
 
@@ -158,13 +158,13 @@ Based on the cell/area activity, the wake-up, and the bedtime has been determine
 
 
 
-Figure <a href="/docs/awakening_city#fig:cell_wakeup_malls">7.7</a> shows the spatial distribution of the cell-based wake-up times. The Voronoi polygons, representing the mobile phone cells, are colored by the calculated "wake-up" times. The map clearly shows some extrema, where the times are around 10:00. Extrema 1-8 are all malls (WestEnd City Center (1), Arena Mall (2), Árkád (3), KÖKI Terminál (4), Lurdy Ház (5), Allee (6), MOM Park (7) and Mammut (8).), that uniformly open at 10:00, though 5 and 8 partly serve as office buildings.
+Figure <a href="/docs/awakening_city#fig:cell_wakeup_malls">7.7</a> shows the spatial distribution of the cell-based wake-up times. The Voronoi polygons, representing the mobile phone cells, are colored by the calculated "wake-up" times. The map clearly shows some extrema, where the times are around 10:00. Extrema 1-8 are all malls (WestEnd City Center (1), Arena Mall (2), Árkád (3), KÖKI Terminál (4), Lurdy Ház (5), Allee (6), MOM Park (7) and Mammut (8)), that uniformly open at 10:00, though 5 and 8 partly serve as office buildings.
 
-Figure <a href="/docs/awakening_city#fig:site_bedtime">7.8</a> shows the bedtime values of the sites on workdays. As the Figure <a href="/docs/awakening_city#fig:cell_bedt_weekday_histogram">7.6c</a> illustrates in respect of cells, the bedtime is usually between 20:00 and 22:00. There are, however, some sites with a later bedtime, and a few of them are denoted in the figure. Marker 1 at the party district (Appendix [\[app:party_district\]](#app:party_district){reference-type="ref" reference="app:party_district"}). The site at marker 2 does not have any distinctive object that could explain this result. However, East of that site, there is a beer factory that might have notable activity in the evening --- compared to the neighborhood --- and the distortion of the Voronoi tessellation could have resulted in this late bedtime. At marker 3, there is a student hostel and, in the neighborhood, there are sport and concert venues.
+Figure <a href="/docs/awakening_city#fig:site_bedtime">7.8</a> shows the bedtime values of the sites on workdays. As the Figure <a href="/docs/awakening_city#fig:cell_bedt_weekday_histogram">7.6c</a> illustrates in respect of cells, the bedtime is usually between 20:00 and 22:00. There are, however, some sites with a later bedtime, and a few of them are denoted in the figure. Marker 1 at the party district (Appendix <a href="/docs/appendix#app:party_district">Party District</a>). The site at marker 2 does not have any distinctive object that could explain this result. However, East of that site, there is a beer factory that might have notable activity in the evening --- compared to the neighborhood --- and the distortion of the Voronoi tessellation could have resulted in this late bedtime. At marker 3, there is a student hostel and, in the neighborhood, there are sport and concert venues.
 
 ## Working Hours {#sec:working_hours}
 
-Figure [\[fig:day_hour_work-home_activity\]](#fig:day_hour_work-home_activity){reference-type="ref" reference="fig:day_hour_work-home_activity"}, shows the activity distribution by days of week and hours, based on the "April 2017" data set, separating the workplace (<a href="/docs/awakening_city#fig:day_hour_work_activity">7.9a</a>) and the home (<a href="/docs/awakening_city#fig:day_hour_home_activity">7.9b</a>) activity, but using the same scale. At the workplace, most of the activity was recorded during the working hours on workdays, as expected. The activity increases fast in the mornings but decreases more slowly in the afternoon. The home activity was mostly clustered on the weekends, but it had a notable activity peak after the work hours in the evening. The home activity before the working hours does not seem so significant.
+Figure <a href="/docs/awakening_city#fig:day_hour_work-home_activity">7.9</a>, shows the activity distribution by days of week and hours, based on the "April 2017" data set, separating the workplace (<a href="/docs/awakening_city#fig:day_hour_work_activity">7.9a</a>) and the home (<a href="/docs/awakening_city#fig:day_hour_home_activity">7.9b</a>) activity, but using the same scale. At the workplace, most of the activity was recorded during the working hours on workdays, as expected. The activity increases fast in the mornings but decreases more slowly in the afternoon. The home activity was mostly clustered on the weekends, but it had a notable activity peak after the work hours in the evening. The home activity before the working hours does not seem so significant.
 
 This procedure can be applied for every cell (or group of cells, like sites), then the activity of the workers and the inhabitants will represent the workplace and home activity tendencies. Note that a cell can have both workers and inhabitants, so every cell has two aspects. Figure <a href="/docs/awakening_city#fig:site_work_exclusive">7.10a</a> and <a href="/docs/awakening_city#fig:site_home_exclusive">7.10b</a>, illustrates the activity of the subscribers who work and live a selected site, respectively. Figure <a href="/docs/awakening_city#fig:site_work_exclusive">7.10a</a>, also demonstrates the concept of Figure <a href="/docs/awakening_city#fig:wakeup_calc">7.1</a>, using actual data.
 
@@ -175,7 +175,7 @@ As expected, Figure <a href="/docs/awakening_city#fig:site_work_exclusive">7.10
 <figcaption><strong>(a)</strong> </figcaption>
 <img id="fig:day_hour_home_activity" src="vod201704/day_hour_home_activity.png" alt="">
 <figcaption><strong>(b)</strong> </figcaption>
-<figcaption><strong>Figure 7.9.:</strong> The mobile phone activity distribution by days of week and hours based on the ``April 2017'' data set, for the work places (<strong>a</strong>) and the homes (<strong>b</strong>).     </figcaption>
+<figcaption><strong>Figure 7.9.:</strong> The mobile phone activity distribution by days of week and hours based on the “April 2017” data set, for the work places (<strong>a</strong>) and the homes (<strong>b</strong>).     </figcaption>
 </figure>
 
 
@@ -236,7 +236,7 @@ Bedtimes show a similar trend (Figure <a href="/docs/awakening_city#fig:entropy
 <figcaption><strong>(c)</strong> </figcaption>
 <img id="fig:gyration_vs_bedtime" src="vod201704/awakening_city/gyration_vs_bedtime.png" alt="">
 <figcaption><strong>(d)</strong> </figcaption>
-<figcaption><strong>Figure 7.13.:</strong> Normalized, inhabitant-based wake-up times in contrast of the normalized daily Entropy (<strong>a</strong>) and Radius of Gyration (<strong>b</strong>). Pearson's Rs are \num{\DailyEntWuPearsonR} and \num{\DailyGyrWuPearsonR}, respectively.     Second row: Normalized, inhabitant-based bedtimes in contrast of the normalized daily Entropy (<strong>c</strong>) and Radius of Gyration (<strong>d</strong>). Pearson's Rs are \num{\DailyEntDoPearsonR} and \num{\DailyGyrDoPearsonR}, respectively.</figcaption>
+<figcaption><strong>Figure 7.13.:</strong> Normalized, inhabitant-based wake-up times in contrast of the normalized daily Entropy (<strong>a</strong>) and Radius of Gyration (<strong>b</strong>). Pearson's Rs are -0.9019 and -0.6869, respectively.     Second row: Normalized, inhabitant-based bedtimes in contrast of the normalized daily Entropy (<strong>c</strong>) and Radius of Gyration (<strong>d</strong>). Pearson's Rs are -0.874 and -0.6479, respectively.</figcaption>
 </figure>
 
 
