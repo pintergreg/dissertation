@@ -10,7 +10,7 @@ description = "Ph.D. dissertation by Gergő Pintér"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["cover_1280x640.png"]
 ogLocale = "en_US"
 #domainTLD = "doks.netlify.app"
 titleHome = "Ph.D. dissertation by Gergő Pintér"
@@ -28,10 +28,10 @@ schemaAuthorTwitter = "https://twitter.com/pintergreg"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/pintergreg/"
 schemaAuthorGitHub = "https://github.com/pintergreg"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "cover_512x512.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "cover_1280x640.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/pintergreg"
