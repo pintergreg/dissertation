@@ -75,7 +75,7 @@ I have compared the detected population of the districts of Budapest and the set
 <figcaption><strong>(a)</strong> </figcaption>
 <img id="fig:t1_dunaharaszti_to_bp_districts" src="commuting/dunaharaszti_to_bp_districts.png" alt="">
 <figcaption><strong>(b)</strong> </figcaption>
-<figcaption><strong>Figure 9.2.:</strong> Commuting to the seven districts groups of Budapest from Érd (<strong>a</strong>) and Dunaharaszti (<strong>b</strong>), comparing census (1990, 2001 and 2011) and mobile network data.     % Next to the legends, the location of the settlements in question is displayed in a map.     </figcaption>
+<figcaption><strong>Figure 9.2.:</strong> Commuting to the seven districts groups of Budapest from Érd (<strong>a</strong>) and Dunaharaszti (<strong>b</strong>), comparing census (1990, 2001 and 2011) and mobile network data.     </figcaption>
 </figure>
 
 

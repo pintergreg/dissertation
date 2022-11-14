@@ -42,7 +42,7 @@ The "April 2017" CDR data set includes mobile phone network activity of the Voda
 </figure>
 
 
-Figure <a href="/docs/data_sources#fig:vod201704_timeseries">3.3a</a>, displays the mobile phone activity as a time series for the "April 2017" dataset. It is quite regular, considering the 4-day weekend in the middle of the month due to Easte[^1]. Figure <a href="/docs/data_sources#fig:fourier">3.3b</a> shows its Fourier decomposition to highlight the seasonality of the data. As expected, this 30-day dataset has a 24-hour periodicity.
+Figure <a href="/docs/data_sources#fig:vod201704_timeseries">3.3a</a>, displays the mobile phone activity as a time series for the "April 2017" dataset. It is quite regular, considering the 4-day weekend in the middle of the month due to Easter[^1]. Figure <a href="/docs/data_sources#fig:fourier">3.3b</a> shows its Fourier decomposition to highlight the seasonality of the data. As expected, this 30-day dataset has a 24-hour periodicity.
 
 
 <figure id="fig:vod201704_seasonality">
@@ -87,7 +87,7 @@ The main drawback of this data set is a large number of missing cell coordinates
 
 
 
-Moreover, 419 cells ceased to operate (did not have any activity) before the end of the month. Figure <a href="/docs/data_sources#fig:disappearing_cells">3.4</a> shows the distribution of these cells during the mont[^2]. According to my knowledge, operators regularly adjust the network, including installing new cells and shutting down others. The problem is that the cell map does not associate temporal information with the geographic locations, so these changes are not represented. The numerous cells without geographic location might be the replacement cells of the removed ones or just temporary cells.
+Moreover, 419 cells ceased to operate (did not have any activity) before the end of the month. Figure <a href="/docs/data_sources#fig:disappearing_cells">3.4</a> shows the distribution of these cells during the month[^2]. According to my knowledge, operators regularly adjust the network, including installing new cells and shutting down others. The problem is that the cell map does not associate temporal information with the geographic locations, so these changes are not represented. The numerous cells without geographic location might be the replacement cells of the removed ones or just temporary cells.
 
 For example, Óbuda Island is a recreational area with marginal mobile phone activity during most of the year. But, it gives place the Sziget Festival, that had approximately 441000 visitors in 2015, with a daily capacity of at most 90000 visitors [<a href="/docs/bibliography#bbj2015sziget" title="K. Christian, “Sziget Festival sees record attendance of 441,000.” Available: https://bbj.hu/budapest/culture/awards/sziget-festival-sees-record-attendance-of-441-000">112</a>]. For this event, the operators install temporary cells to serve the massively increased demand of the mobile phone network capacity.
 
@@ -164,7 +164,7 @@ The simple string equality cannot be used due to writing distinction to match th
 
 From the GSMArena data, two indicators have been extracted: (i) the price of the phone (in EUR) and (ii) the relative age of the phone (in months). The phone price was left intact without taking into consideration the depreciation, and the relative age of the phone was calculated as the difference between the date of the <span class="acronym" title="Call Detail Record">CDR</span> data set and the release date of the phone.
 
-Figure <a href="/docs/data_sources#fig:phone_price_and_age_hist">3.10</a> shows the distribution of the phone prices and relative ages within the April 2017 data set. The relative age has a nice distribution, showing that most cellphones are 1 to 3 years old. There were some new and very old phones still in use. The cellphone price distribution follows the relative ages. However, the number of expensive phones seems to be unrealistically lo[^4], so analysis has been performed on an expensive and well-known brand, the iPhone.
+Figure <a href="/docs/data_sources#fig:phone_price_and_age_hist">3.10</a> shows the distribution of the phone prices and relative ages within the April 2017 data set. The relative age has a nice distribution, showing that most cellphones are 1 to 3 years old. There were some new and very old phones still in use. The cellphone price distribution follows the relative ages. However, the number of expensive phones seems to be unrealistically low[^4], so analysis has been performed on an expensive and well-known brand, the iPhone.
 
 
 <figure id="fig:phone_price_and_age_hist">
